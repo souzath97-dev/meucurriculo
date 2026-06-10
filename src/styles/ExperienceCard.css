@@ -1,0 +1,8 @@
+/* Placeholder para compatibilidade com cards antigos */
+.experience-card {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent-green);
+}

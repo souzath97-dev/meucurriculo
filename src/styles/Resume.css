@@ -1,0 +1,36 @@
+.resume-section {
+  background-color: var(--secondary-color);
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 60px;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+  padding-bottom: 10px;
+  border-left: 4px solid var(--accent-green);
+  padding-left: 15px;
+}
+
+.resume-section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 30px;
+  }
+
+  .resume-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .resume-section p {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,57 @@
+.header {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+  padding: 60px 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header .name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, white 0%, var(--accent-green) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header .title {
+  font-size: 1.3rem;
+  color: var(--accent-green);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.header .bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 15px;
+    margin-bottom: 30px;
+  }
+
+  .header .name {
+    font-size: 2rem;
+  }
+
+  .header .title {
+    font-size: 1.1rem;
+  }
+
+  .header .bio {
+    font-size: 0.95rem;
+  }
+}

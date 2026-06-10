@@ -1,0 +1,98 @@
+.professional-map {
+  margin-bottom: 60px;
+}
+
+.professional-map h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: white;
+  padding-bottom: 10px;
+  border-left: 4px solid var(--accent-green);
+  padding-left: 15px;
+}
+
+.professional-map .description {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.map-card {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.map-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-green);
+  box-shadow: 0 10px 30px rgba(72, 187, 120, 0.1);
+}
+
+.map-card .card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.map-card h3 {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.map-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.map-card .links-list {
+  list-style: none;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.map-card .links-list li {
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+.map-card .links-list strong {
+  color: var(--accent-green);
+}
+
+.map-card .links-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.map-card .links-list a:hover {
+  color: var(--accent-green);
+}
+
+@media (max-width: 768px) {
+  .professional-map h2 {
+    font-size: 1.5rem;
+  }
+
+  .map-grid {
+    gap: 15px;
+  }
+
+  .map-card {
+    padding: 20px;
+  }
+}
