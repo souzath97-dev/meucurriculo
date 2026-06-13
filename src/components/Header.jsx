@@ -1,7 +1,7 @@
-import '../styles/Header.css'
+import '../styles/style.css'
 
 import { useState } from "react";
-import fotoPerfil from "../assets/Foto_Trabalho.png";
+import fotoPerfil from "../assets/fotodeperfil.jpg";
 
 
 function Header({nome, dataNascimento, email, endereco}){

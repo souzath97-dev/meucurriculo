@@ -1,8 +1,9 @@
 import Header from "./components/Header"
-import Sobre from "./components/Sobre";
+import Sobre from "./components/SobreMim";
 import CardExperiencia from "./components/CardExperiencia"
 import Formacao from "./components/Formacao.jsx";
 import Cursos from "./components/Cursos";
+import './styles/style.css'
 
 function App() {
 
